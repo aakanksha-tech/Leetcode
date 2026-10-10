@@ -23,7 +23,7 @@ class Solution {
 //         int[] ans = new int[n];
 //         for (int i = 0; i < n; i++) {
 //             int pro = 1;
-//             for (int j = i+1; j < n; j++) {
+//             for (int j = 0; j < n; j++) {
 //                 if (i != j) {
 //                     pro = pro * nums[j];
 //                 }
