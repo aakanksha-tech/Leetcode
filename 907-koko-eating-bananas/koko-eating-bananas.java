@@ -33,3 +33,25 @@ class Solution {
         return hours <= h;
     }
 }
+
+// class Solution {
+
+//      public int minEatingSpeed(int[] piles, int h) {
+//         int max=0;
+//         for(int i=0;i<piles.length;i++){
+//             if(piles[i]>max){
+//                 max=piles[i];
+//             }
+//         }
+//         for(int k=1;k<max;k++){
+//             int hours=0;
+//             for(int i=0;i<piles.length;i++){
+//                 hours=hours+(piles[i]+k-1)/k;
+//             }
+//             if(hours<=h){
+//                 return k;
+//             }
+//         }
+//         return max;
+//      }
+// }
