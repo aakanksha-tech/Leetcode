@@ -1,3 +1,4 @@
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -5,14 +6,15 @@
  *     ListNode next;
  *     ListNode() {}
  *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ *     ListNode(int val, ListNode next) {
+ *         this.val = val;
+ *         this.next = next;
+ *     }
  * }
  */
+
 class Solution {
     public ListNode middleNode(ListNode head) {
-        if(head==null){
-            System.out.println("Empty List");
-        }
         ListNode slow = head;
         ListNode fast = head;
 
